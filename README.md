@@ -41,3 +41,8 @@ set ExitOnSession false
 exploit -j -z
 ```
 
+## Wait For the Exploit
+
+You'll be able to see when your machine is getting TCP connections to your targets. Each target machine accounts for 2 TCP connections, so in this example, there are 8 connections being made.
+
+![Exploit Demo]()
