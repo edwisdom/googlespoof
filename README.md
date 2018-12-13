@@ -45,4 +45,4 @@ exploit -j -z
 
 You'll be able to see when your machine is getting TCP connections to your targets. Each target machine accounts for 2 TCP connections, so in this example, there are 8 connections being made.
 
-![Exploit Demo]()
+![alt text](https://github.com/edwisdom/googlespoof/blob/master/ExploitDemo.png "Exploit Demo")
